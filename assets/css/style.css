@@ -5,3 +5,15 @@ html, body {
 #gridCont {
     height: 100%;
 }
+
+#portfolioImg {
+    width: 100%;
+}
+
+#statsBar {
+    height: 200px;
+}
+
+.projLink {
+    width: 100%;
+}

@@ -62,7 +62,9 @@
 
             <div uk-grid>
                 <div class="uk-width-1-1">
-                    LINK LINK LINK
+                    <div class="uk-position-bottom-left contactLinks">
+                        LINK LINK LINK
+                    </div>
                 </div>
             </div>
 
@@ -72,13 +74,40 @@
 
             <div uk-grid>
                 <div class="uk-width-1-1">
-                    STATS
+                    <div uk-grid id="statsBar">
+                        <div class="uk-width-1-6">
+                            STATS
+                        </div>
+                        <div class="uk-width-expand">
+                            progress bars?
+                        </div>
+                        <div class="uk-width-1-4">
+                            <a class="uk-button uk-button-default projLink" href="#">WEBSITE</a>
+                            <a class="uk-button uk-button-default projLink" href="#">GITHUB</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div uk-grid>
                 <div class="uk-width-1-1">
-                    DEMO
+                   
+                    <div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow> 
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img src="assets/images/placeholder.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="assets/images/placeholder.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="assets/images/placeholder.png" alt="" uk-cover>
+                            </li>
+                        </ul>            
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>    
+                    </div>
+
                 </div>
             </div>
 
